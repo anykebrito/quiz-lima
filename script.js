@@ -148,7 +148,7 @@ proxima.addEventListener("click", function () {
         if (pontuacao <= 6) {
 
             pergunta.innerHTML =
-                "QUE NOTA HORRIVEL! >:( <br> Você precisa conhecer sua namorada bem melhor, some!";
+                "QUE PONTUAÇÃO TERRÍVEL! >:( <br> Você precisa conhecer sua namorada bem melhor, some!";
 
             imagem.src = "emojiputo.webp";
 
