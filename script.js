@@ -171,12 +171,17 @@ proxima.addEventListener("click", function () {
 
         else if (pontuacao == 12) {
 
-            pergunta.innerHTML =
-                "PARABÉNS FOFINHO! <3 <br> Você conhece sua namorada muito bem! Ela te ama";
+    pergunta.innerHTML =
+        "PARABÉNS FOFINHO! <3 <br> Você conhece sua namorada muito bem! Ela te ama";
 
-            imagem.src = "happycat.webp";
+    imagem.src = "happycat.webp";
 
-        }
+    const segundaImagem = document.createElement("img");
+    segundaImagem.src = "gui.jpg";
+    segundaImagem.classList.add("segunda-imagem");
+
+    imagem.parentNode.appendChild(segundaImagem);
+}
 
     }
 
